@@ -1,12 +1,14 @@
 # 🧠 Conversational Agent with Open-Source LLM & Real-Time Tools
 
-### This project is a Conversational Agent built using LangChain and Llama3 (via Groq). It intelligently routes user queries to one of the following tools:
+#### This project is a Conversational Agent built using LangChain and Llama3 (via Groq). It intelligently routes user queries to one of the following tools:
 
 * Wikipedia: for factual, recent event and historical information
 
 * Arxiv: for recent scientific research papers
 
 * LLM Direct Answer: for general knowledge and simple queries like math or definitions
+
+<br><br>
 
 ## 🚀 Features
 * 🔗 Tool-augmented LangChain Agent
@@ -21,6 +23,8 @@
 
 * 🔄 Graceful fallback in case a tool fails
 
+<br><br>
+
 ## 📂 Project Structure
 ```
 .
@@ -31,6 +35,8 @@
 └── screenshots/          # Folder to hold screenshots of output
 
 ```
+
+<br><br>
 
 
 ## 📦 Installation
@@ -88,7 +94,7 @@ Create a ```.env``` file in the root directory and add your Groq API key:
 python app.py 
 
 ```
-
+<br><br>
 
 ## 💬 Sample Queries
 
@@ -103,11 +109,11 @@ queries = [
 ]
 
 ```
-
+<br><br>
 ## 🧱 Architecture
 
 
-![Architecture](screenshots/Ai-Agent-workflow.png)
+![Architecture](screenshots/Ai-Agent-workflow.png)<br>
 
 
 
@@ -127,9 +133,9 @@ queries = [
 
 * Prompt: Custom-designed prompt template to guide agent behavior
 
-
+<br>
 > 📄 **Full Documentation Report**: [Click here to view PDF](https://drive.google.com/file/d/1gQHdF8bkRe5n2dCorKejl5g4it9NI5x9/view?usp=sharing)
-
+<br><br>
 
 ## ⚙️ Design Flow
 
@@ -143,34 +149,38 @@ queries = [
 
 5. Handle errors and fallbacks gracefully
 
-
+<br>
 
 
 ## 📸 Screenshots - Sample Result
 
-1. **Screenshot 1**: Query result showing the latest presidential election in Indonesia - it uses wikipedia tool for latest
+1. **Screenshot 1**: Query result showing the latest presidential election in Indonesia - it uses wikipedia tool for latest <br>
 
    ![Screenshot 1](screenshots/Screenshot1.png)
+   <br><br>
 
-2. **Screenshot 2**: Displaying the current president of France -  it uses wikipedia tool for current 
+2. **Screenshot 2**: Displaying the current president of France -  it uses wikipedia tool for current <br>
 
    ![Screenshot 2](screenshots/Screenshot2.png)
-
-3. **Screenshot 3**: Response to a follow-up question about someone's age - it uses memory
+   <br><br>
+3. **Screenshot 3**: Response to a follow-up question about someone's age - it uses memory <br>
 
    ![Screenshot 3](screenshots/Screenshot3.png)
-
-4. **Screenshot 4**: Research on quantum computing from Arxiv
+    <br><br>
+4. **Screenshot 4**: Research on quantum computing from Arxiv <br>
 
    ![Screenshot 4](screenshots/Screenshot4.png)
+   <br><br>
 
-5. **Screenshot 5**: Research on quantum computing from Arxiv - LLM response
+5. **Screenshot 5**: Research on quantum computing from Arxiv - LLM response <br>
 
    ![Screenshot 5](screenshots/Screenshot5.png)
+   <br><br>
 
-6. **Screenshot 6**: Math query handled by the LLM (5 multiplied by 12)
+6. **Screenshot 6**: Math query handled by the LLM (5 multiplied by 12)<br>
 
    ![Screenshot 6](screenshots/Screenshot6.png)
+   <br><br>
 
 
    
