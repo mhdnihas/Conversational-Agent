@@ -37,8 +37,10 @@
 #### 1. Clone the Repository
 
 ```
+
 git clone https://github.com/mhdnihas/Conversational-Agent.git
-cd conversational-agent-llm
+cd Conversational-Agent
+
 ```
 
 #### 2. Create and Activate Virtual Environment
@@ -60,7 +62,12 @@ source venv/bin/activate
 
 #### 2.Install Dependencies
 
-```  pip install -r requirements.txt  ```
+```  
+
+pip install -r requirements.txt  
+
+
+```
 
 
 #### 3.Set Environment Variables
@@ -68,12 +75,19 @@ source venv/bin/activate
 Create a ```.env``` file in the root directory and add your Groq API key:
 
 
-```  GROQ_API_KEY= "your_groq_api_key_here"  ```
+``` 
+
+ GROQ_API_KEY= "your_groq_api_key_here"  
+ 
+ ```
 
 
 #### 4.Run the Application
 
-``` python agent.py ```
+``` 
+python app.py 
+
+```
 
 
 ## 💬 Sample Queries
@@ -91,6 +105,11 @@ queries = [
 ```
 
 ## 🧱 Architecture
+
+
+![Architecture](screenshots/Ai-Agent-workflow.png)
+
+
 
 * LLM: llama3-8b-8192 using Groq API
 
@@ -128,19 +147,28 @@ queries = [
 ## 📸 Screenshots - Sample Result
 
 1. **Screenshot 1**: Query result showing the latest presidential election in Indonesia - it uses wikipedia tool for latest
+
    ![Screenshot 1](screenshots/Screenshot1.png)
 
 2. **Screenshot 2**: Displaying the current president of France -  it uses wikipedia tool for current 
+
    ![Screenshot 2](screenshots/Screenshot2.png)
 
 3. **Screenshot 3**: Response to a follow-up question about someone's age - it uses memory
+
    ![Screenshot 3](screenshots/Screenshot3.png)
 
 4. **Screenshot 4**: Research on quantum computing from Arxiv
+
    ![Screenshot 4](screenshots/Screenshot4.png)
 
 5. **Screenshot 5**: Research on quantum computing from Arxiv - LLM response
+
    ![Screenshot 5](screenshots/Screenshot5.png)
 
 6. **Screenshot 6**: Math query handled by the LLM (5 multiplied by 12)
+
    ![Screenshot 6](screenshots/Screenshot6.png)
+
+
+   
