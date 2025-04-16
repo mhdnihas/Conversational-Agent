@@ -77,11 +77,11 @@ Query: {input}
 
 
 agent = initialize_agent(
- # Uses Wikipedia for current political information# Uses Wikipedia for current political information  tools=[direct_answer_tool, wikipedia_tool, arxiv_tool],
     llm=llm,
     agent=AgentType.CONVERSATIONAL_REACT_DESCRIPTION,
     verbose=True,  
     max_iterations=5, 
+    tools=[direct_answer_tool, wikipedia_tool, arxiv_tool],
     max_execution_time=120, 
     handle_parsing_errors=True, 
     agent_kwargs={
