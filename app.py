@@ -77,7 +77,7 @@ Query: {input}
 
 
 agent = initialize_agent(
-    tools=[direct_answer_tool, wikipedia_tool, arxiv_tool],
+ # Uses Wikipedia for current political information# Uses Wikipedia for current political information  tools=[direct_answer_tool, wikipedia_tool, arxiv_tool],
     llm=llm,
     agent=AgentType.CONVERSATIONAL_REACT_DESCRIPTION,
     verbose=True,  
@@ -111,3 +111,7 @@ if __name__ == "__main__":
     for query in queries:
         print(f"Query: {query}")
         print(f"Response: {run_agent_query(query)}\n")
+
+
+
+
