@@ -2,3 +2,5 @@ langchain
 langchain_community
 langchain-groq
 wikipedia
+python-dotenv
+arxiv
