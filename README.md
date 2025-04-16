@@ -128,6 +128,8 @@ queries = [
 * Prompt: Custom-designed prompt template to guide agent behavior
 
 
+> 📄 **Full Documentation Report**: [Click here to view PDF](https://drive.google.com/file/d/1gQHdF8bkRe5n2dCorKejl5g4it9NI5x9/view?usp=sharing)
+
 
 ## ⚙️ Design Flow
 
